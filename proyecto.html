@@ -5,30 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Madrid</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <style>
-        .noticia-con-foto,
-        img {
-            width: 55%;
-        }
+
 
         .equipacion {
             text-align: center;
         }
 
-        .equipacion a,
-        .equipacion img,
-        .equipacion a span {
-            border: 0;
-            padding: 0;
-            margin: 0;
-        }
+
 
         .equipacion a {
             position: relative;
@@ -53,88 +42,10 @@
             transition: all 0.4s ease-in-out;
         }
 
-        #catalogo .equipacion {
-            display: flex;
-
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 80%;
-            margin: 20px auto;
-            background-color: #fff;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        th,
-        td {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 10px;
-        }
-
-        th {
-            background-color: #f2f2f2;
-            font-weight: bold;
-            color: #333;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-
-        tr:hover {
-            background-color: #e9e9e9;
-        }
-
-        .escudo {
-            width: 30px;
-            height: auto;
-            margin-right: 10px;
-        }
-
-        .descenso {
-            border-left: 4px solid rgb(253, 0, 0);
-
-        }
-
-        .arriba {
-            border-bottom: 4px solid rgb(253, 0, 0);
-        }
-
-        tfoot tr {
-            text-align: left;
-        }
-
-        .carousel-item img {
-            width: 40%;
-            height: 20%;
-
-        }
-
-        .carousel {
-            width: 100%;
-
-        }
-
-        .carousel img {
-            width: 100%;
-            height: 666px;
-            object-fit: cover;
 
 
-        }
-
-        .fotoquieta {
-            width: 180px;
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            z-index: 5;
-            position: fixed;
-        }
     </style>
-    </style>
+
 </head>
 
 <body>
@@ -166,46 +77,45 @@
             </div>
         </div>
     </nav>
-
-
+    <a href="#">
+        <div class=" d-block fixed-bottom ms-auto me-0" style="width: 90px;">
+            <img src="img/icon (1).png"></img>
+        </div>
+    </a>
     <div class="container mt-5">
-        <a href="#">
-            <div class="fotoquieta">
-                <img src="img/icon (1).png"></img>
-            </div>
-        </a>
-        <section id="noticias">
+
+        <section id="noticias" class="container">
             <h2>Noticias</h2>
-            <div class="noticia-con-foto">
-                <h3>Vini Jr. recibe el trofeo EFE a mejor Jugador Iberoamericano del 2023</h3>
+            <div class="row">
+                <h3 class="col-12">Vini Jr. recibe el trofeo EFE a mejor Jugador Iberoamericano del 2023</h3>
                 <a href="noticia1.html" target="_blank"><img
                         src="img/ND_VINICIUS_TROFEO_MEJOR_JUGADOR_IBEROAMERICANO_EFE__01_HE02749.webp"
-                        class="rounded-4"></a></br>
+                        class="rounded-4 w-25 col-5"></a><br>
 
             </div>
-            <div class="noticia-con-foto">
-                <h3>Una decisión arbitral inédita impide la victoria del Real Madrid en Mestalla</h3>
+            <div class="row">
+                <h3 class="col-12">Una decisión arbitral inédita impide la victoria del Real Madrid en Mestalla</h3>
                 <a href="noticia2.html" target="_blank"><img
                         src="img/ND_FUTBOL_LIGA_VALENCIA_RM__CRONICA_GettyImages_2046563679.webp"
-                        class="rounded-4"></a></br>
+                        class="rounded-4 w-25 col-5"></a><br>
 
             </div>
-            <div class="noticia-con-foto">
-                <h3>El Real Madrid de baloncesto campeón de la 29 Copa de S.M. el Rey</h3>
+            <div class="row">
+                <h3 class="col-12">El Real Madrid de baloncesto campeón de la 29 Copa de S.M. el Rey</h3>
                 <a href="noticia3.html" target="_blank"><img
-                        src="img/ND_COPA_FINAL_RM_BARCELONA_GRUPO_COPA_1VC1974_1.webp" class="rounded-4"></a></br>
+                        src="img/ND_COPA_FINAL_RM_BARCELONA_GRUPO_COPA_1VC1974_1.webp" class="rounded-4 w-25 col-5"></a><br>
 
             </div>
-            <div class="noticia-con-foto">
-                <h3>El Santiago Bernabéu acogerá un partido de la NFL en 2025</h3>
+            <div class="row">
+                <h3 class="col-12">El Santiago Bernabéu acogerá un partido de la NFL en 2025</h3>
                 <a href="noticia4.html" target="_blank"><img src="img/ND_Butragueno_Acto_NFL_Bernabeu.webp"
-                        class="rounded-4"></a></br>
+                        class="rounded-4 w-25 col-5"></a><br>
 
             </div>
-            <div class="noticia-con-foto">
-                <h3>‘Universo Real Madrid: Francia’, en RM Play</h3>
+            <div class="row">
+                <h3 class="col-12">‘Universo Real Madrid: Francia’, en RM Play</h3>
                 <a href="noticia5.html" target="_blank"><img src="img/UNIVERSO_FRANCIA_THUMBNAIL_EPISODIO.webp"
-                        class="rounded-4"></a></br>
+                        class="rounded-4 w-25 col-5"></a><br>
 
             </div>
         </section>
@@ -227,13 +137,13 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/_2_1PC0939.webp" alt="Lucas y Carvajal" class="d-block w-100">
+                        <img src="img/GH00ELYWAAATmz8.jfif" alt="Vini Jr" class="d-block w-100">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/nacho.png" alt="Nacho" class="d-block w-100">
+                        <img src="img/GH0ktntWoAEfhyb.jfif" alt="Rondo" class="d-block w-100">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/_7_1PC2441.webp" alt="Bellingham entrenando en solitario" class="d-block w-100">
+                        <img src="img/GHwZHPLXgAERTHn.jfif" alt="Carrera" class="d-block w-100">
                     </div>
                 </div>
 
@@ -278,7 +188,7 @@
 
             <div class="row">
                 <div class="card col-md-4" style="width:400px">
-                    <div class="equipacion">
+                    <div class="equipacion d-flex">
                         <a href="#catalogo">
                             <img class="card-img-top" src="img/1equipaciondelante.webp" alt="Card image">
                             <span>
@@ -295,7 +205,7 @@
                 </div>
 
                 <div class="card col-md-4" style="width:400px">
-                    <div class="equipacion">
+                    <div class="equipacion d-flex">
                         <a href="#catalogo">
                             <img class="card-img-top" src="img/2equipaciondelante.webp" alt="Card image">
                             <span>
@@ -313,7 +223,7 @@
                 </div>
 
                 <div class="card col-md-4" style="width:400px">
-                    <div class="equipacion">
+                    <div class="equipacion d-flex">
                         <a href="#catalogo">
                             <img class="card-img-top" src="img/3equipaciondelante.webp" alt="Card image">
                             <span>
@@ -329,7 +239,7 @@
                     </div>
                 </div>
                 <div class="card col-md-4" style="width:400px">
-                    <div class="equipacion">
+                    <div class="equipacion d-flex">
                         <a href="#catalogo">
                             <img class="card-img-top" src="img/porteroequipdelante.webp" alt="Card image">
                             <span>
@@ -347,7 +257,7 @@
                 </div>
 
                 <div class="card col-md-4" style="width:400px">
-                    <div class="equipacion">
+                    <div class="equipacion d-flex">
                         <a href="#catalogo">
                             <img class="card-img-top" src="img/sudaderadelante.webp" alt="Card image">
                             <span>
@@ -365,7 +275,7 @@
                 </div>
 
                 <div class="card col-md-4" style="width:400px">
-                    <div class="equipacion">
+                    <div class="equipacion d-flex">
                         <a href="#catalogo">
                             <img class="card-img-top" src="img/pantalondelante.webp" alt="Card image">
                             <span>
@@ -388,10 +298,10 @@
 
         </section>
 
-
+        
         <section id="tabla">
             <h2>Clasificación LaLiga</h2>
-            <table class="table-hover table-bordered table-striped">
+            <table class="table table-hover table-bordered table-striped">
                 <tr class="arriba">
                     <th></th>
                     <th>Equipos</th>
@@ -407,7 +317,7 @@
                 <tr>
                     <td>1</td>
                     <td>
-                        <img src="equipos/rma.png" alt="Real Madrid" class="escudo">
+                        <img src="equipos/rma.png" alt="Real Madrid" class="escudo h-0 me-1" style="width: 30px;">
                         Real Madrid
                     </td>
                     <td>24</td>
@@ -422,7 +332,7 @@
                 <tr>
                     <td>2</td>
                     <td>
-                        <img src="equipos/gir.png" alt="Gerona" class="escudo">
+                        <img src="equipos/gir.png" alt="Gerona" class="escudo h-0 me-1" style="width: 30px;">
                         Gerona
                     </td>
                     <td>24</td>
@@ -437,7 +347,7 @@
                 <tr>
                     <td>3</td>
                     <td>
-                        <img src="equipos/fcb.png" alt="FC Barcelona" class="escudo">
+                        <img src="equipos/fcb.png" alt="FC Barcelona" class="escudo h-0 me-1" style="width: 30px;">
                         FC Barcelona
                     </td>
                     <td>24</td>
@@ -452,7 +362,7 @@
                 <tr>
                     <td>4</td>
                     <td>
-                        <img src="equipos/atm.png" alt="Atleti" class="escudo">
+                        <img src="equipos/atm.png" alt="Atleti" class="escudo h-0 me-1" style="width: 30px;">
                         Atleti
                     </td>
                     <td>24</td>
@@ -467,7 +377,7 @@
                 <tr>
                     <td>5</td>
                     <td>
-                        <img src="equipos/ath.png" alt="Atleti" class="escudo">
+                        <img src="equipos/ath.png" alt="Atleti" class="escudo h-0 me-1" style="width: 30px;">
                         Athletic
                     </td>
                     <td>24</td>
@@ -482,7 +392,7 @@
                 <tr>
                     <td>6</td>
                     <td>
-                        <img src="equipos/bet.png" alt="Betis" class="escudo">
+                        <img src="equipos/bet.png" alt="Betis" class="escudo h-0 me-1" style="width: 30px;">
                         Betis
                     </td>
                     <td>24</td>
@@ -497,7 +407,7 @@
                 <tr>
                     <td>7</td>
                     <td>
-                        <img src="equipos/rso.png" alt="Real Sociedad" class="escudo">
+                        <img src="equipos/rso.png" alt="Real Sociedad" class="escudo h-0 me-1" style="width: 30px;">
                         Real Sociedad
                     </td>
                     <td>24</td>
@@ -512,7 +422,7 @@
                 <tr>
                     <td>8</td>
                     <td>
-                        <img src="equipos/lpa.png" alt="Las Palmas" class="escudo">
+                        <img src="equipos/lpa.png" alt="Las Palmas" class="escudo h-0 me-1" style="width: 30px;">
                         Las Palmas
                     </td>
                     <td>24</td>
@@ -527,7 +437,7 @@
                 <tr>
                     <td>9</td>
                     <td>
-                        <img src="equipos/val.png" alt="Valencia" class="escudo">
+                        <img src="equipos/val.png" alt="Valencia" class="escudo h-0 me-1" style="width: 30px;">
                         Valencia
                     </td>
                     <td>24</td>
@@ -542,7 +452,7 @@
                 <tr>
                     <td>10</td>
                     <td>
-                        <img src="equipos/get.png" alt="Getafe" class="escudo">
+                        <img src="equipos/get.png" alt="Getafe" class="escudo h-0 me-1" style="width: 30px;">
                         Getafe
                     </td>
                     <td>24</td>
@@ -557,7 +467,7 @@
                 <tr>
                     <td>11</td>
                     <td>
-                        <img src="equipos/osa.png" alt="Osasuna" class="escudo">
+                        <img src="equipos/osa.png" alt="Osasuna" class="escudo h-0 me-1" style="width: 30px;">
                         Osasuna
                     </td>
                     <td>24</td>
@@ -572,7 +482,7 @@
                 <tr>
                     <td>12</td>
                     <td>
-                        <img src="equipos/ala.png" alt="Alavés" class="escudo">
+                        <img src="equipos/ala.png" alt="Alavés" class="escudo h-0 me-1" style="width: 30px;">
                         Alavés
                     </td>
                     <td>24</td>
@@ -587,7 +497,7 @@
                 <tr>
                     <td>13</td>
                     <td>
-                        <img src="equipos/vil.png" alt="Villareal" class="escudo">
+                        <img src="equipos/vil.png" alt="Villareal" class="escudo h-0 me-1" style="width: 30px;">
                         Villareal
                     </td>
                     <td>24</td>
@@ -602,7 +512,7 @@
                 <tr>
                     <td>14</td>
                     <td>
-                        <img src="equipos/rva.png" alt="Rayo Vallecano" class="escudo">
+                        <img src="equipos/rva.png" alt="Rayo Vallecano" class="escudo h-0 me-1" style="width: 30px;">
                         Rayo Vallecano
                     </td>
                     <td>24</td>
@@ -617,7 +527,7 @@
                 <tr>
                     <td>15</td>
                     <td>
-                        <img src="equipos/sfc.png" alt="Sevilla" class="escudo">
+                        <img src="equipos/sfc.png" alt="Sevilla" class="escudo h-0 me-1" style="width: 30px;">
                         Sevilla
                     </td>
                     <td>24</td>
@@ -632,7 +542,7 @@
                 <tr>
                     <td>16</td>
                     <td>
-                        <img src="equipos/mll.png" alt="Mallorca" class="escudo">
+                        <img src="equipos/mll.png" alt="Mallorca" class="escudo h-0 me-1" style="width: 30px;">
                         Mallorca
                     </td>
                     <td>24</td>
@@ -647,7 +557,7 @@
                 <tr>
                     <td>17</td>
                     <td>
-                        <img src="equipos/cel.png" alt="Celta de Vigo" class="escudo">
+                        <img src="equipos/cel.png" alt="Celta de Vigo" class="escudo h-0 me-1" style="width: 30px;">
                         Celta de Vigo
                     </td>
                     <td>24</td>
@@ -662,7 +572,7 @@
                 <tr>
                     <td>18</td>
                     <td>
-                        <img src="equipos/cad.png" alt="Cádiz" class="escudo">
+                        <img src="equipos/cad.png" alt="Cádiz" class="escudo h-0 me-1" style="width: 30px;">
                         Cádiz
                     </td>
                     <td>24</td>
@@ -677,7 +587,7 @@
                 <tr>
                     <td>19</td>
                     <td>
-                        <img src="equipos/gra.png" alt="Granada" class="escudo">
+                        <img src="equipos/gra.png" alt="Granada" class="escudo h-0 me-1" style="width: 30px;">
                         Granada
                     </td>
                     <td>24</td>
@@ -692,7 +602,7 @@
                 <tr>
                     <td>20</td>
                     <td>
-                        <img src="equipos/alm.png" alt="Almería" class="escudo">
+                        <img src="equipos/alm.png" alt="Almería" class="escudo h-0 me-1" style="width: 30px;">
                         Almería
                     </td>
                     <td>24</td>
@@ -724,7 +634,7 @@
                 </div>
                 <div class="col-md-4">
                     <h5>Social</h5>
-                    <a href="https://twitter.com/realmadrid/" <button type="button" class="btn btn-primary"><svg
+                    <a href="https://twitter.com/realmadrid/"> <button type="button" class="btn btn-primary"><svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-twitter-x" viewBox="0 0 16 16">
                             <path
@@ -732,25 +642,25 @@
                         </svg> Twitter</button>
                     </a>
 
-                    </br>
-                    <a href="https://instagram.com/realmadrid" <button type="button" class="btn btn-info"><svg
+                    <br><br>
+                    <a href="https://instagram.com/realmadrid"> <button type="button" class="btn btn-info"><svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-instagram" viewBox="0 0 16 16">
                             <path
                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
                         </svg> Instagram</button>
                     </a>
-                    </br>
-                    <a href="https://youtube.com/user/realmadridcf" <button type="button" class="btn btn-danger"><svg
+                    <br><br>
+                    <a href="https://youtube.com/user/realmadridcf"> <button type="button" class="btn btn-danger"><svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-youtube" viewBox="0 0 16 16">
                             <path
                                 d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
                         </svg> YouTube</button>
                     </a>
-                    </br>
+                    <br><br>
 
-                    <a href="https://twitch.tv/realmadrid" <button type="button" class="btn btn-light"><svg
+                    <a href="https://twitch.tv/realmadrid"> <button type="button" class="btn btn-light"><svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-twitch" viewBox="0 0 16 16">
                             <path
